@@ -1,0 +1,89 @@
+#indexBox{
+    width: 30%;
+    float: left;
+    background: grey;
+    border-radius: 20px;
+    border: 3px solid blue;
+}
+#indexBox img{
+    position: absolute;
+    top: 75px;
+    left: 397px;
+
+}
+#ad{
+    font-size: 25px;
+    color:black;
+    margin: 15px;
+    border-radius: 10px;
+    outline: none;
+    padding:5px 10px; 
+    border: 0;
+}
+#ceki{
+    font-size: 25px;
+    color:black;
+    margin: 15px;
+    border-radius: 10px;
+    outline: none;
+    padding:5px 10px; 
+    border: 0;
+}
+#qiymet{
+    font-size: 25px;
+    margin: 15px;
+    color:black;
+    border-radius: 10px;
+    outline: none;
+    padding:5px 10px; 
+    border: 0;
+}
+#tarix{
+    font-size: 25px;
+    margin: 15px;
+    color:black;
+    border-radius: 10px;
+    outline: none;
+    padding:5px 10px; 
+    border: 0;
+}
+#mallar{
+    font-size: 25px;
+    color:black;
+    margin: 15px;
+    display: block;
+    border-radius: 10px;
+    outline: none;
+    padding:5px 10px; 
+    border: 0;
+}
+#clickButton{
+    font-size: 25px;
+    margin: 15px;
+    cursor: pointer;
+    color:black;
+    border-radius: 10px;
+    outline: none;
+    padding:5px 10px; 
+    border: 0;
+}
+
+#information{
+    float: left;
+    width: 18%;
+    margin: 50px 100px;
+    border: 3px solid blue;
+    border-radius: 10px;
+    background: goldenrod;
+    padding: 10px;
+}
+#information >span{
+    display: block;
+    font-size: 25px;
+}
+#information >span:nth-child(1){
+    margin-bottom: 20px;
+}
+#information >span:nth-child(2){
+    margin-bottom: 10px;
+}

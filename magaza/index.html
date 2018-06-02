@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/javaScript.js"></script>
+    <title>Magaza</title>
+</head>
+
+<body>
+    <div id="indexBox">
+        <input type="text" id="ad" placeholder="ad">
+        <br>
+        <input type="number" required id="ceki" placeholder="ceki">
+        <br>
+        <select name="" id="mallar">
+            <br>
+            <option value="0" id="kateqori">Kateqory</option>
+            <option value="1" id="et">Et</option>
+            <br>
+            <option value="2" id="terevez">Terevez</option>
+            <br>
+            <option value="3" id="sirniyyat">Sirniyyat</option>
+            <br>
+        </select>
+        <input type="number" id="qiymet" placeholder="qiymet">
+        <br>
+        <input type="text" id="tarix" placeholder="gun/ay/il">
+        <br>
+        <input type="submit" id="clickButton" value="Mehsulu elave et" onclick="yoxla()">
+        <img src="images/forward.png" alt="">
+    </div>
+
+    <div id="information">
+        <span id="mallsayi">stokdaki mal sayi-0</span>
+        <span id="kateqori">Kateqoriyalar uzre:</span>
+        <span id="etsayi">Et-0</span>
+        <span id="sirniyyatsayi">Sirniyyat-0</span>
+        <span id="terevezsayi">Terevez-0</span>
+    </div>
+</body>
+
+</html>
